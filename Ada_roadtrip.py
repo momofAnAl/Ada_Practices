@@ -15,9 +15,7 @@ def Ada_roadtrip(vehicle_names, vehicle_ranges, vehicle_rental_prices, days_rent
 
     print(f"The least expensive vehicle is the {cheapest_car} which will cost ${cheapest_cost:.2f} to take on the trip")
 
-    return cheapest_car, cheapest_cost
-
-   
+    #return cheapest_car, cheapest_cost
 
 vehicle_names = ["Toyota Prius", "Leaf", "ID4"]
 vehicle_ranges = [100, 200, 75]
