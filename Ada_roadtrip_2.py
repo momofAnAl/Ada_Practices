@@ -8,8 +8,8 @@ def Ada_roadtrip(vehicle_names, vehicle_ranges, vehicle_rental_prices):
         total_cost = rental_cost + total_charging_cost
 
         if total_cost < cheapest_cost:
-          cheapest_cost = total_cost
-          cheapest_car = vehicle_names[i]
+            cheapest_cost = total_cost
+            cheapest_car = vehicle_names[i]
 
     print(f'"The least expensive vehicle is the {cheapest_car} which cost ${cheapest_cost:.2f} to take on trip"')
 

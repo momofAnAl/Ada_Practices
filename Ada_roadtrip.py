@@ -1,5 +1,4 @@
 def Ada_roadtrip(vehicle_names, vehicle_ranges, vehicle_rental_prices, days_rental, total_distance, charging_cost):
-
     cheapest_car = ""
     cheapest_cost = float('inf')
 
